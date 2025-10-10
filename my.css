@@ -1,0 +1,96 @@
+
+
+/* IMPORTANT GENERAL THINGS SECTION */
+@media (min-width: 360px) {
+
+}
+@media (min-width: 1000px) {
+
+}
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .right {
+  /* pushes text to the right side of screen */
+  float:right;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  }
+
+  table, th, td {
+    width: 30%;
+    border:5px solid black;
+  }
+
+
+
+/* MISC GENERAL SECTION */
+
+  /*made so that warnings stand out */
+  .warning {
+    color: black;
+    text-shadow:
+    1px 1px 2px rgb(251, 255, 0),
+    0px 0px 1px rgb(0, 0, 0),
+    0px 0px 0.2px rgb(0, 0, 0);
+  }
+
+  /* made so large areas dont cover the page */
+  .large_Text_Area {
+    width: 600px;
+  }
+
+
+
+/* FOOD SECTION */
+
+  .herb {
+  /* made so that herbivores, and plant foods stand out */
+    color: green; 
+  }
+
+  .carn{
+  /* made so that carnivores, and meat foods stand out */
+    color: red; 
+  }
+
+  .omni {
+  /* made so that omnivores stand out */
+  color: yellow;  
+  }
+
+  .seed {
+  /* made to make seeds stand out */
+    color: rgb(126, 105, 95); 
+  }
+
+  .insect_food {
+  /* made to make feeder insects stand out */
+    color: rgb(109, 203, 31);
+  }
+
+
+
+/* HEADINGS SECTION */
+
+  /* made to make sections about lighting stand out */
+  .lighting_Info
+  {
+    color: orange;
+
+    /* Makes text glow */
+    text-shadow:  0 0 2px rgba(251, 255, 0, 1), /* Makes text glow */
+      0 0 4px rgba(251, 255, 0, 0.9), 
+      0 0 5px rgba(251, 255, 0, 0.8),
+      0 0 6px rgba(251, 255, 0, 0.7),
+      0 0 7px rgba(251, 255, 0, 0.6),
+      0 0 8px rgba(251, 255, 0, 0.5),
+      0 0 9px rgba(251, 255, 0, 0.4),
+      0 0 10px rgba(251, 255, 0, 0.3),
+      0 0 11px rgba(251, 255, 0, 0.2),
+      0 0 12px rgba(251, 255, 0, 0.1);
+  }
+
