@@ -2,7 +2,19 @@
 
 /* IMPORTANT GENERAL THINGS SECTION */
 @media (min-width: 360px) {
-
+img {
+  max-width: 70%;
+  height: auto;
+  display: flex;
+  flex: column;
+}
+body {
+  font-size: 0.5rem;
+}
+table {
+  width: 75%;
+  height: 100%;
+}
 }
 @media (min-width: 1000px) {
 
@@ -93,4 +105,5 @@
       0 0 11px rgba(251, 255, 0, 0.2),
       0 0 12px rgba(251, 255, 0, 0.1);
   }
+
 
