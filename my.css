@@ -6,7 +6,6 @@
     max-width: 70%;
     height: auto;
     display: flex;
-    flex: column;
   }
   body {
     font-size: 0.5rem;
@@ -31,11 +30,11 @@
   #main_lizard_links_list {
     list-style-type: none;
     font-size: large;
-    li{
-      margin-bottom: 5px;
-    }
   }
-  
+  #main_lizard_links_list li{
+    margin-bottom: 5px;
+  }
+
 
 }
 
