@@ -20,6 +20,23 @@
     height: auto;
   }
 
+  .centered_mobile {
+    text-align: center;
+  }
+
+  form {
+    text-align: center;
+  }
+
+  #main_lizard_links_list {
+    list-style-type: none;
+    font-size: large;
+    li{
+      margin-bottom: 5px;
+    }
+  }
+  
+
 }
 
   body {
@@ -39,6 +56,7 @@
     width: 30%;
     border: 3px solid black;
   }
+
 
 /* MISC GENERAL SECTION */
 
