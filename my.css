@@ -1,26 +1,29 @@
 
 
 /* IMPORTANT GENERAL THINGS SECTION */
-@media (min-width: 360px) {
-img {
-  max-width: 70%;
-  height: auto;
-  display: flex;
-  flex: column;
-}
-body {
-  font-size: 0.5rem;
-}
-table {
-  width: 75%;
-  height: 100%;
-}
-}
-@media (min-width: 1000px) {
+@media (max-width: 900px) {
+  img {
+    max-width: 70%;
+    height: auto;
+    display: flex;
+    flex: column;
+  }
+  body {
+    font-size: 0.5rem;
+  }
+  table {
+    width: 75%;
+    height: 100%;
+  }
+  #main_page_table {
+    width: 100%;
+    height: auto;
+  }
 
 }
+
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, serif, monospace;
   }
 
   .right {
@@ -34,10 +37,8 @@ table {
 
   table, th, td {
     width: 30%;
-    border:5px solid black;
+    border: 3px solid black;
   }
-
-
 
 /* MISC GENERAL SECTION */
 
@@ -55,6 +56,9 @@ table {
     width: 600px;
   }
 
+  .cost_Of_Reptile {
+    color:rgb(62,156,53);
+  }
 
 
 /* FOOD SECTION */
@@ -106,4 +110,21 @@ table {
       0 0 12px rgba(251, 255, 0, 0.1);
   }
 
+  .uro_Habitat {
+  font-family: "Rakkas", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(194, 178, 128);
+  text-shadow: 1px 1px 2px rgb(194, 178, 128),
+  0px 2px 1px rgb(0, 0, 0),
+  0px 3px 0.2px rgb(0, 0, 0);
+  }
+  .cold_Side {
+    color: rgb(100, 255, 250);
+  }
+  .hot_Side {
+    color:rgb(255,30,30);
+  }
+  
 
+  
