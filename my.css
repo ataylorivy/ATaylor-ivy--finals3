@@ -94,15 +94,13 @@
   /* made so that omnivores stand out */
   color: yellow;  
   }
-
+    .insect {
+  /* made to make insectivores and insects food stand out */
+    color: rgb(109, 203, 31);
+  }
   .seed {
   /* made to make seeds stand out */
     color: rgb(126, 105, 95); 
-  }
-
-  .insect_food {
-  /* made to make feeder insects stand out */
-    color: rgb(109, 203, 31);
   }
 
 
@@ -127,7 +125,7 @@
       0 0 12px rgba(251, 255, 0, 0.1);
   }
 
-  .uro_Habitat {
+  .arid_Habitat {
   font-family: "Rakkas", serif;
   font-weight: 400;
   font-style: normal;
@@ -136,6 +134,17 @@
   0px 2px 1px rgb(0, 0, 0),
   0px 3px 0.2px rgb(0, 0, 0);
   }
+
+    .humid_Habitat {
+  font-family: "Rakkas", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(34, 139, 34);
+  text-shadow: 1px 1px 2px rgb(34, 139, 34),
+  0px 2px 1px rgb(0, 0, 0),
+  0px 3px 0.2px rgb(0, 0, 0);
+  }
+
   .cold_Side {
     color: rgb(100, 255, 250);
   }
