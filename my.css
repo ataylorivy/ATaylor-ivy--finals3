@@ -35,9 +35,15 @@
     margin-bottom: 5px;
   }
 
-
+  .big_screen_img {
+    display: none;
+  }
 }
-
+@media (min-width: 901px) {
+  .small_screen_img {
+    display: none;
+  }
+}
   body {
     font-family: Arial, Helvetica, sans-serif, serif, monospace;
   }
